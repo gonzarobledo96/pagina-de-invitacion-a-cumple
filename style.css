@@ -31,8 +31,9 @@
   justify-content: space-around;
 }
 .imagen-tiago{
-  border: solid 5px rgb(155, 154, 154);
+  border: solid 5px rgba(0, 255, 0, 0);
   border-radius: 50%;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 .lisa{
 width: 10%;
@@ -383,12 +384,21 @@ width: 10%;
   font-size: 1.2em;
 }
 
+.ubicacion-de-fiesta-boton{
+  text-decoration: none;
+  Font-family: "Alex Brush", cursive;
+  color: #fff;
+  background-color: #961035;
+  border-radius: 30px;
+  padding: 10px 40px;
+  border: 1px solid #961035;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.ubicacion-de-fiesta-boton:hover{
+  color: black;
 
-
-
-
-
-
+}
 
 
 
